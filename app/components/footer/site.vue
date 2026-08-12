@@ -4,7 +4,7 @@ import { footerData } from '~/data'
 
 <template>
   <div>
-    <p class="text-black dark:text-zinc-300 text-base py-1 font-semibold">About This Site</p>
+    <p class="text-black dark:text-zinc-300 text-base py-1 font-semibold">关于本网站</p>
     <p class="py-2 dark:text-zinc-300">
       {{ footerData.aboutTheSite }}
     </p>

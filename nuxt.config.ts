@@ -4,6 +4,22 @@ import { seoData } from './app/data'
 export default defineNuxtConfig({
   compatibilityDate: '2024-09-30',
 
+  // devtools: { enabled: true },
+
+  // 关键配置：确保监听所有网络接口
+  vite: {
+    server: {
+      watch: {
+        usePolling: true, // Docker 环境下必须启用轮询
+        interval: 1000, // 轮询间隔（毫秒）
+      },
+      // hmr: {
+      //   host: '0.0.0.0', // 允许外部访问 HMR
+      //   port: 24678, // HMR 端口
+      // },
+    },
+  },
+
   modules: [
     'nuxt-llms',
     '@nuxt/icon',
@@ -44,7 +60,7 @@ export default defineNuxtConfig({
 
   site: {
     url: seoData.mySite,
-    name: 'Al Asad Nur Riyad',
+    name: 'ImpaCTFul',
   },
 
   typescript: {

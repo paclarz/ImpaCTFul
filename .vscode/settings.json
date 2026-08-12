@@ -4,6 +4,23 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "LICENSE.md": true,
+    ".editorconfig": true,
+    ".data": true,
+    ".github": true,
+    ".nuxt": true,
+    ".nvmrc": true,
+    ".prettierrc": true,
+    "eslint.config.mjs": true,
+    "tailwind.config.js": true,
+    "tsconfig.json": true
+  },
   "tailwindCSS.files.exclude": ["**/.git/**", "**/node_modules/**", "**/.hg/**", "**/.svn/**", "**/.nuxt/**"],
-  "cSpell.words": ["cloudinary", "Namecheap", "nurriyad", "Nuxt", "spacegrotesk", "Tailwindcss", "vuex"]
+  "cSpell.words": ["cloudinary", "Namecheap", "Nuxt", "spacegrotesk", "Tailwindcss", "vuex"]
 }

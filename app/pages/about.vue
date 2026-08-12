@@ -15,7 +15,7 @@ defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: navbarData.homeTitle,
   description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
-  link: '/riyad.jpg',
+  link: '/logo.png',
 })
 </script>
 
@@ -28,8 +28,9 @@ defineOgImageComponent('About', {
             <h1 class="text-xl sm:text-4xl pb-2 font-bold">
               {{ aboutPage.title }}
             </h1>
+            <br/>
 
-            <div class="my-3 space-x-2 md:space-x-3 pb-10">
+            <!-- <div class="my-3 space-x-2 md:space-x-3 pb-10">
               <NuxtLink
                 :to="socialLinks.githubLink"
                 target="_blank"
@@ -62,20 +63,20 @@ defineOgImageComponent('About', {
               >
                 <Icon name="fa:stack-overflow" size="1em" class="-translate-y-[-10%]" />
               </NuxtLink>
-            </div>
+            </div> -->
           </div>
           <div class="sm:hidden block col-span-3 pb-5 dark:text-[#F1F2F4]">
-            <NuxtImg src="/riyad.jpg" width="125" height="115" quality="50" class="rounded-md" />
+            <NuxtImg src="/logo.png" width="125" height="115" quality="50" class="rounded-md" />
           </div>
         </div>
-        <h3 class="text-base sm:text-3xl font-semibold pb-7 sm:pb-12">
+        <h3 class="text-base sm:text-2xl pb-7 sm:pb-12">
           {{ aboutPage.description }}
         </h3>
 
         <p>{{ aboutPage.aboutMe }}</p>
       </div>
       <div class="hidden sm:block col-span-3">
-        <NuxtImg src="/riyad.jpg" width="450" height="500" quality="50" class="rounded-md" />
+        <NuxtImg src="/logo.png" width="450" height="500" quality="50" class="rounded-md" />
       </div>
     </div>
   </div>

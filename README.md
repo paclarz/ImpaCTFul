@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://blog-nurriyad.vercel.app" target="_blank">
+  <a href="https://impactful-30.conline" target="_blank">
     <img  src="./app/assets/images/dark.png">
   </a>
 </p>

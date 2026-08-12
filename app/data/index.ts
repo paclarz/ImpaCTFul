@@ -1,55 +1,52 @@
 export const navbarData = {
-  homeTitle: "Riyad's Blog",
+  homeTitle: 'ImpaCTFul',
 }
 
 export const footerData = {
-  author: 'Al Asad Nur Riyad',
-  aboutAuthor: 'Hi! I am Riyad, a Tech enthusiast, problem solver and software engineer. Currently working at FieldNation LLC.',
-  authorInterest:
-    "I have a fair amount of knowledge of Javascript, Typescript, VueJs, and Nuxt. If you have an interesting idea, either open source or paid let's connect.",
-  aboutTheSite:
-    "This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it's deployed in Vercel.",
+  author: '影响力CTF协会',
+  aboutAuthor: '学习密码学,逆向,二进制,嵌入式,web等多种技术与知识',
+  authorInterest: '本网站仅供个人学习整理交流使用，与任何机构公司实体无关。',
+  aboutTheSite: '本网站基于 Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon.',
 }
 
 export const homePage = {
-  title: 'Welcome To My Blog Site',
-  description:
-    'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+  title: '影响力CTF协会',
+  description: '学习密码学,逆向,二进制,嵌入式,web等多种技术与知识',
 }
 
 export const blogsPage = {
-  title: 'All Blogs',
-  description: 'Here you will find all the blog posts I have written & published on this site.',
+  title: '全部文章',
+  description: '这里汇总所有知识博客与公开信息.',
 }
 
 export const categoryPage = {
-  title: 'Categories',
-  description: 'Blow this category is generated from all the tags are mentioned in the different blog post',
+  title: '分类',
+  description: '根据标签分类查找博客',
 }
 
 export const aboutPage = {
-  title: 'Al Asad Nur Riyad',
-  description: 'Software Engineer, Problem Solver, Web Enthusiast.',
-  aboutMe:
-    "Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at @FieldNation in the Workplace Operation team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!",
+  title: '关于我们',
+  description:
+    '我们的名字来源于单词 Impactful, 该单词内含“CTF”, 是本协会的核心研究内容“夺旗赛 ( Capture The Flag )”的缩写, 单词的中文直译为“影响力”。是一个以兴趣和热爱驱动的CTF社团',
+  aboutMe: '本网站还在早期开发中，任何问题请与开发者联系！',
 }
 
 export const seoData = {
-  title: `Riyad's Blog | Riyads Blog`,
-  ogTitle: `Let's learn Javascript, Typescript, Vue, Nuxt, & Problem Solving - Riyads Blog | Riyad's Blog`,
-  description: `Hi I am Riyad. A Software Engineer at FieldNation, with over 3.5+ years experience in software development. - Riyads Blog | Riyad's Blog`,
-  twitterDescription: `Riyad's Blog, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc - Riyads Blog | Riyad's Blog`,
-  image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://blog-nurriyad.vercel.app',
-  twitterHandle: '@qdnvubp',
-  mailAddress: 'asadnurriyad@gmail.com',
+  title: `ImapCTFul | 影响力CTF协会`,
+  ogTitle: `ImpaCTFul 影响力CTF协会`,
+  description: `TODO-seoData-description`,
+  twitterDescription: `TODO-seoData-twitterDescription`,
+  image: 'TODO-seoData-image',
+  mySite: 'https://impactful-30.online',
+  twitterHandle: 'TODO-seoData-twitterHandle',
+  mailAddress: '1203308433@qq.com',
 }
 
 export const socialLinks = {
-  githubLink: 'https://github.com/nurRiyad',
-  linkedinLink: 'https://www.linkedin.com/in/nur-riyad/',
-  twitterLink: 'https://twitter.com/qdnvubp',
-  stackoverflowLink: 'https://stackoverflow.com/users/16781395/nur-riyad',
+  githubLink: 'https://github.com/paclarz',
+  linkedinLink: 'TODO-socialLinks',
+  twitterLink: 'TODO-socialLinks',
+  stackoverflowLink: 'TODO-socialLinks',
 }
 
 export const siteMetaData = [
