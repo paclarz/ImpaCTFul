@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app                          # 挂载当前目录到容器 /app
+      - /app/node_modules               # 匿名卷，保护容器内的 node_modules
