@@ -70,6 +70,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
+      failOnError: false,
       routes: ['/', '/rss.xml'],
     },
   },

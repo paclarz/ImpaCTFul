@@ -34,10 +34,10 @@ export const aboutPage = {
 export const seoData = {
   title: `ImapCTFul | 影响力CTF协会`,
   ogTitle: `ImpaCTFul 影响力CTF协会`,
-  description: `TODO-seoData-description`,
+  description: `ImpaCTFul 影响力CTF协会`,
   twitterDescription: `TODO-seoData-twitterDescription`,
-  image: 'TODO-seoData-image',
-  mySite: 'https://impactful-30.online',
+  image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
+  mySite: 'https://github.com/paclarz',
   twitterHandle: 'TODO-seoData-twitterHandle',
   mailAddress: '1203308433@qq.com',
 }
