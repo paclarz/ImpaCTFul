@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { BlogPost } from '~/types/blog'
 
-const { data } = await useAsyncData('trending-post', () => queryCollection('content').limit(3).all())
+const { data } = await useAsyncData('trending-post', () => queryCollection('content').limit(20).all())
 
 const formattedData = computed(() => {
   return data.value?.map((articles) => {
@@ -25,8 +25,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content:
-        '欢迎来到影响力CTF协会',
+      content: '欢迎来到影响力CTF协会',
     },
   ],
 })

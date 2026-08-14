@@ -20,6 +20,17 @@ export default defineNuxtConfig({
     },
   },
 
+  fonts: {
+    providers: {
+      google: false,
+      bunny: false,
+      fontshare: false,
+      googleicons: false,
+    },
+    // 或者完全禁用字体模块
+    // enabled: false
+  },
+
   modules: [
     'nuxt-llms',
     '@nuxt/icon',
