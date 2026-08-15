@@ -18,11 +18,11 @@ data.value?.forEach((blog) => {
 })
 
 useHead({
-  title: 'Categories',
+  title: '分类',
   meta: [
     {
       name: 'description',
-      content: 'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
+      content: '根据标签分类查找文章',
     },
   ],
 })
@@ -31,8 +31,8 @@ useHead({
 const siteData = useSiteConfig()
 defineOgImage({
   props: {
-    title: 'Categories',
-    description: 'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
+    title: '分类',
+    description: '根据标签分类查找博客',
     siteName: siteData.url,
   },
 })

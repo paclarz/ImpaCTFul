@@ -45,7 +45,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: `You will find all the ${category.value} related post here`,
+      content: `查看与 ${category.value} 相关的文章`,
     },
   ],
 })

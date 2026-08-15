@@ -42,7 +42,7 @@ const formattedData = computed(() => {
 })
 
 useHead({
-  title: 'Home',
+  title: '主页',
   meta: [
     {
       name: 'description',

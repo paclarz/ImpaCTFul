@@ -65,11 +65,11 @@ function onNextPageClick() {
 }
 
 useHead({
-  title: 'Archive',
+  title: '文章',
   meta: [
     {
       name: 'description',
-      content: 'Here you will find all the blog posts I have written & published on this site.',
+      content: '查看全部文章',
     },
   ],
 })

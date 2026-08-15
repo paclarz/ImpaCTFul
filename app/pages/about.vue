@@ -2,19 +2,19 @@
 import { aboutPage, footerData, navbarData, socialLinks } from '~/data'
 
 useHead({
-  title: 'About',
+  title: '关于',
   meta: [
     {
       name: 'description',
-      content: footerData.aboutAuthor,
+      content: '关于我们',
     },
   ],
 })
 
 defineOgImageComponent('About', {
-  headline: 'Greetings 👋',
+  headline: '影响力CTF协会',
   title: navbarData.homeTitle,
-  description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
+  description: '学习密码学,逆向,二进制,嵌入式,web等多种技术与知识',
   link: '/logo.png',
 })
 </script>

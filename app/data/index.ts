@@ -37,7 +37,7 @@ export const seoData = {
   description: `ImpaCTFul 影响力CTF协会`,
   twitterDescription: `TODO-seoData-twitterDescription`,
   image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://impactful-30.online/',
+  mySite: 'https://impactful-30.space/',
   twitterHandle: 'TODO-seoData-twitterHandle',
   mailAddress: '1203308433@qq.com',
 }
